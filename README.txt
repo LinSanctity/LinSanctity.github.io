@@ -4,6 +4,8 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 
 google603ff442f68baf9e.html：檢查瀏覽情況。
 index.html：主頁面設定。
+elements.html: 研究畫廊。
+elements.html:研究經驗。
 SUB1.html：電車。
 SUB2.html：日本旅行。
 SUB3.html：歷史/原理。
