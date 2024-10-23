@@ -2,16 +2,15 @@ Editorial by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
-google603ff442f68baf9e.html：檢查瀏覽情況。
+google603ff442f68baf9e.html：檢查網站被瀏覽情況。
+
 index.html：主頁面設定。
 elements.html: 研究畫廊。
 elements.html:研究經驗。
 SUB1.html：電車。
 SUB2.html：日本旅行。
 SUB3.html：歷史/原理。
-SUB4.html：俄羅斯方塊
-
-
+SUB4.html：俄羅斯方塊。
 
 
 Say hello to Editorial, a blog/magazine-ish template built around a toggleable "locking"
