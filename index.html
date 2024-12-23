@@ -324,7 +324,30 @@ This is code: <code>for (;;) { ... }</code>.
 	<!--權利設定 
 
 <	p class="copyright">&copy; All rights reserved to Sanctity. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p> -->
-	<p class="copyright">&copy; All rights reserved to Sanctity. </p>
+	
+<script>
+    // Function to get the visit count from localStorage
+    function getVisitCount() {
+        return parseInt(localStorage.getItem('visitCount') || '0', 10);
+    }
+
+    // Function to update the visit count in localStorage
+    function updateVisitCount() {
+        let count = getVisitCount();
+        count += 1;
+        localStorage.setItem('visitCount', count);
+        return count;
+    }
+
+    // Update the visit count on page load
+    document.addEventListener('DOMContentLoaded', () => {
+        const count = updateVisitCount();
+        document.getElementById('count').textContent = count;
+    });
+</script>
+
+<p id="visitor-count">This page has been visited <span id="count">0</span> times.</p>
+<p class="copyright">&copy; All rights reserved to Sanctity. </p>
 </footer>
 
 						</div>
